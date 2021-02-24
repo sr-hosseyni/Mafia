@@ -1,0 +1,15 @@
+<ul class="tabordion">
+  <li class="section" *ngFor="let user of users">
+    <input type="radio" name="sections" id="option{{user.id}}" [checked]="user.id === currentUser.id">
+    <label for="option{{user.id}}">{{user.name}}</label>
+    <article>
+      <ul class="messages">
+        <li *ngFor="let message of user.messages">
+          <b>{{username(message.from)}}</b>&nbsp;&nbsp;>>&nbsp;&nbsp;{{message.message}}
+        </li>
+      </ul>
+      <input [(ngModel)]="message"/>
+      <button (click)="send(user)">Send</button>
+    </article>
+  </li>
+</ul>

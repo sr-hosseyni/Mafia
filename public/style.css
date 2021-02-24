@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #dc143c;
+    background: -webkit-linear-gradient(to bottom, #eb3349, #f45c43);
+    /*background: linear-gradient(to right, #eb3349, #f45c43);*/
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+body.day {
+    background: linear-gradient(to right, #7b4397, #dc2430);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*.deg1 {*/
+/*    transform: rotate(270deg) translate(6em) rotate(-270deg);*/
+/*    top: 50px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.deg2 {*/
+/*    transform: translate(5em);*/
+/*    border: solid 1px red;*/
+/*}*/
+
+/*.deg3 {*/
+/*    transform: rotate(45deg) translate(6em) rotate(-45deg);*/
+/*}*/
+
+/*.deg4 {*/
+/*    transform: rotate(135deg) translate(6em) rotate(-135deg);*/
+/*}*/
+
+/*.deg5 {*/
+/*    transform: translate(-6em);*/
+/*}*/
+
+/*.deg6 {*/
+/*    transform: rotate(225deg) translate(6em) rotate(-225deg);*/
+/*}*/
+
+/*.deg7 {*/
+/*    transform: rotate(245deg) translate(6em) rotate(-245deg);*/
+/*}*/
+
+/*.circle-container {*/
+/*    position: relative;*/
+/*    width: 24em;*/
+/*    height: 24em;*/
+/*    padding: 2.8em;*/
+/*    border-radius: 50%;*/
+/*    margin: 1.75em auto 0;*/
+/*}*/
+
+/*.circle-container a {*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    margin: -2em;*/
+/*}*/
